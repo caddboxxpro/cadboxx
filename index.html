@@ -633,8 +633,20 @@
 
     <a-scene>
         <a-assets>
-  
+            <a-asset-item id="brnd" gltf-model="ground.glb"  ></a-asset-item>
+            <a-asset-item id="bxx" gltf-model="planebox-x.glb"  ></a-asset-item>
+
+
+          
         </a-assets>
+      <a-entity gltf-model="#bxx"  position="0 0 0" rotation="0 0 0" scale="1 1 1" static-body></a-entity>
+      <a-entity gltf-model="#bxx"  position="0 0 0" rotation="0 0 0" scale="1 1 1" static-body></a-entity>
+      
+      <a-entity gltf-model="#bx-x"  position="0 0 0" rotation="0 0 0" scale="1 1 1" static-body></a-entity>
+      <a-entity gltf-model="#bx-y"  position="2 0 0" rotation="90 0 0" scale="2 1 1" static-body></a-entity>
+      <a-entity gltf-model="#bx-z"  position="0 0 2" rotation="0 0 90" scale="1 1 2" static-body></a-entity>
+
+
       
     </a-scene>
   </body>
